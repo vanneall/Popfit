@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFitnessFragment">
+
+    <fragment
+        android:id="@+id/mainSettingsFragment"
+        android:name="com.example.popfit.MainSettingsFragment"
+        android:label="fragment_main_settings"
+        tools:layout="@layout/fragment_main_settings" />
+    <fragment
+        android:id="@+id/mainFitnessFragment"
+        android:name="com.example.popfit.MainFitnessFragment"
+        android:label="fragment_main_fitness"
+        tools:layout="@layout/fragment_main_fitness" >
+        <action
+            android:id="@+id/action_mainFitnessFragment_to_exerciseAddFragment"
+            app:destination="@id/exerciseAddFragment" />
+        <action
+            android:id="@+id/action_mainFitnessFragment_to_execriceInfoFragment"
+            app:destination="@id/execriceInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/execriceInfoFragment"
+        android:name="com.example.popfit.ExecriceInfoFragment"
+        android:label="fragment_execrice_info"
+        tools:layout="@layout/fragment_execrice_info" />
+    <fragment
+        android:id="@+id/exerciseAddFragment"
+        android:name="com.example.popfit.ExerciseAddFragment"
+        android:label="fragment_exercise_add"
+        tools:layout="@layout/fragment_exercise_add" />
+</navigation>
