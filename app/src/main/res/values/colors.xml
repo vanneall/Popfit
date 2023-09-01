@@ -3,5 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="cardview_background">#FFFEF7FF</color>
+    <color name="card_view_background">#FFFEF7FF</color>
+
+    <color name="fab_background">#FFECE6F0</color>
+    <color name="fab_foreground">#FF6750A4</color>
 </resources>

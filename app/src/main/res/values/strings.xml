@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">Popfit</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="exercise_title"><b>Упражнения</b></string>
+    <string name="add_exercise_title"><b>Добавить упражнение</b></string>
+
+    <string name="current_weight">Текущий рабочий вес</string>
+    <string name="weight">Вес</string>
+    <string name="up_next_time">Повысить в следующий раз?</string>
+    <string name="cancel">Отменить</string>
+    <string name="save">Сохранить</string>
+
+    <string name="hint_title">Название</string>
+    <string name="hint_start_weight">Начальный вес</string>
 </resources>
