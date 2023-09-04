@@ -3,8 +3,72 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="light_theme_primary">#FF855400</color>
+    <color name="light_theme_on_primary">#ffffff</color>
+    <color name="light_theme_on_primary_container">#FF2a1700</color>
+    <color name="light_theme_primary_container">#ffddb7</color>
+
+    <color name="light_theme_secondary">#FF705b41</color>
+    <color name="light_theme_on_secondary">#FFffffff</color>
+    <color name="light_theme_on_secondary_container">#281905</color>
+    <color name="light_theme_secondary_container">#fcdebc</color>
+
+    <color name="light_theme_tertiary">#5c6237</color>
+    <color name="light_theme_on_tertiary">#ffffff</color>
+    <color name="light_theme_tertiary_container">#e0e7b1</color>
+    <color name="light_theme_on_tertiary_container">#191e00</color>
+
+    <color name="light_theme_error">#ba1a1a</color>
+    <color name="light_theme_on_error">#ffffff</color>
+    <color name="light_theme_error_container">#ffdad6</color>
+    <color name="light_theme_on_error_container">#410002</color>
+
+    <color name="light_theme_background">#fffbff</color>
+    <color name="light_theme_on_background">#1f1b16</color>
+    <color name="light_theme_surface">#fffbff</color>
+    <color name="light_theme_on_surface">#1f1b16</color>
+
+    <color name="light_theme_outline">#847469</color>
+    <color name="light_theme_surface_color_variant">#f3dfd2</color>
+    <color name="light_theme_on_surface_variant">#51443b</color>
+
     <color name="card_view_background">#FFFEF7FF</color>
 
     <color name="fab_background">#FFECE6F0</color>
     <color name="fab_foreground">#FF6750A4</color>
+
+    <color name="green">#FF008000</color>
+
+
+    <!-- Dark theme colors -->
+    <color name="dark_theme_primary">#ffb77c</color>
+    <color name="dark_theme_on_primary">#4d2700</color>
+    <color name="dark_theme_on_primary_container">#6d3900</color>
+    <color name="dark_theme_primary_container">#ffdcc2</color>
+
+    <color name="dark_theme_secondary">#e3c0a6</color>
+    <color name="dark_theme_on_secondary">#412c19</color>
+    <color name="dark_theme_on_secondary_container">#5a422e</color>
+    <color name="dark_theme_secondary_container">#ffdcc2</color>
+
+    <color name="dark_theme_tertiary">#c4cb97</color>
+    <color name="dark_theme_on_tertiary">#2e330d</color>
+    <color name="dark_theme_tertiary_container">#444a22</color>
+    <color name="dark_theme_on_tertiary_container">#e0e7b1</color>
+
+    <color name="dark_theme_error">#ffb4ab</color>
+    <color name="dark_theme_on_error">#690005</color>
+    <color name="dark_theme_error_container">#93000a</color>
+    <color name="dark_theme_on_error_container">#ffdad6</color>
+
+    <color name="dark_theme_background">#201b17</color>
+    <color name="dark_theme_on_background">#ece0da</color>
+    <color name="dark_theme_surface">#201b17</color>
+    <color name="dark_theme_on_surface">#ece0da</color>
+
+    <color name="dark_theme_outline">#9e8e82</color>
+    <color name="dark_theme_surface_color_variant">#51443b</color>
+    <color name="dark_theme_on_surface_variant">#d6c3b6</color>
+
+
 </resources>

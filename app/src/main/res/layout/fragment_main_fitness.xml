@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainFitnessFragment">
+    tools:context=".view.main_fragment.MainFitnessFragment">
 
     <TextView
         android:id="@+id/textView_title"
@@ -19,10 +19,11 @@
         android:id="@+id/recyclerView"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView_title"
+        app:layout_constraintTop_toBottomOf="@+id/textView_title"
         tools:listitem="@layout/exercise_list_item" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -31,9 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
-        android:backgroundTint="@color/fab_background"
         android:src="@drawable/add_icon"
-        android:tint="@color/fab_foreground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

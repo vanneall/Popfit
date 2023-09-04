@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_main_settings" />
     <fragment
         android:id="@+id/mainFitnessFragment"
-        android:name="com.example.popfit.MainFitnessFragment"
+        android:name="com.example.popfit.view.main_fragment.MainFitnessFragment"
         android:label="fragment_main_fitness"
         tools:layout="@layout/fragment_main_fitness" >
         <action
@@ -24,12 +24,16 @@
     </fragment>
     <fragment
         android:id="@+id/execriceInfoFragment"
-        android:name="com.example.popfit.ExecriceInfoFragment"
+        android:name="com.example.popfit.view.info_fragment.ExerciseInfoFragment"
         android:label="fragment_execrice_info"
-        tools:layout="@layout/fragment_execrice_info" />
+        tools:layout="@layout/fragment_execrice_info" >
+        <argument
+            android:name="exercise"
+            app:argType="com.example.popfit.domain.Exercise" />
+    </fragment>
     <fragment
         android:id="@+id/exerciseAddFragment"
-        android:name="com.example.popfit.ExerciseAddFragment"
+        android:name="com.example.popfit.view.add_fragment.ExerciseAddFragment"
         android:label="fragment_exercise_add"
         tools:layout="@layout/fragment_exercise_add" />
 </navigation>

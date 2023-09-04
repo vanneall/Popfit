@@ -1,7 +1,36 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Popfit" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:statusBarColor">@color/dark_theme_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="colorPrimary">@color/dark_theme_primary</item>
+        <item name="colorOnPrimary">@color/dark_theme_on_primary</item>
+        <item name="colorPrimaryContainer">@color/dark_theme_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/dark_theme_on_primary_container</item>
+
+        <item name="colorSecondary">@color/dark_theme_secondary</item>
+        <item name="colorOnSecondary">@color/dark_theme_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/dark_theme_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/dark_theme_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/dark_theme_tertiary</item>
+        <item name="colorOnTertiary">@color/dark_theme_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/dark_theme_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/dark_theme_on_tertiary_container</item>
+
+        <item name="colorError">@color/dark_theme_error</item>
+        <item name="colorOnError">@color/dark_theme_on_error</item>
+        <item name="colorErrorContainer">@color/dark_theme_error_container</item>
+        <item name="colorOnErrorContainer">@color/dark_theme_on_error_container</item>
+
+        <item name="backgroundColor">@color/dark_theme_background</item>
+        <item name="colorOnBackground">@color/dark_theme_on_background</item>
+        <item name="colorSurface">@color/dark_theme_surface</item>
+        <item name="colorOnSurface">@color/dark_theme_on_surface</item>
+
+        <item name="colorOutline">@color/dark_theme_outline</item>
+        <item name="colorSurfaceVariant">@color/dark_theme_surface_color_variant</item>
+        <item name="colorOnSurfaceVariant">@color/dark_theme_on_surface_variant</item>
     </style>
 </resources>
