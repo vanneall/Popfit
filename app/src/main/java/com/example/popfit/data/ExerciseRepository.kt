@@ -1,4 +1,4 @@
-package com.example.popfit.domain
+package com.example.popfit.data
 
 import androidx.lifecycle.LiveData
 

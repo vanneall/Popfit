@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.example.popfit.databinding.FragmentExecriceInfoBinding
-import com.example.popfit.domain.Exercise
+import com.example.popfit.data.Exercise
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

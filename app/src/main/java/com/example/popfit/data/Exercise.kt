@@ -1,4 +1,4 @@
-package com.example.popfit.domain
+package com.example.popfit.data
 
 import android.os.Parcelable
 import androidx.room.Entity

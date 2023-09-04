@@ -1,8 +1,6 @@
 package com.example.popfit.data
 
 import androidx.lifecycle.LiveData
-import com.example.popfit.domain.Exercise
-import com.example.popfit.domain.ExerciseRepository
 import com.example.popfit.storage.ExerciseDao
 import javax.inject.Inject
 

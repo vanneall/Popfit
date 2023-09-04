@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.popfit.R
 import com.example.popfit.databinding.ExerciseListItemBinding
-import com.example.popfit.domain.Exercise
+import com.example.popfit.data.Exercise
 
 class ExerciseAdapter(private val clickListener: OnAdapterItemClickListener) :
     ListAdapter<Exercise, ExerciseAdapter.ExerciseViewHolder>(DiffUtilItem()) {

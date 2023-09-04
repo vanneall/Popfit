@@ -4,13 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.example.popfit.R
 import com.example.popfit.databinding.FragmentMainFitnessBinding
-import com.example.popfit.domain.Exercise
+import com.example.popfit.data.Exercise
 import com.example.popfit.view.main_fragment.recycler_view_configurator.ExerciseAdapter
 import com.example.popfit.view.main_fragment.recycler_view_configurator.ExerciseAdapterDecoration
 import com.example.popfit.view.main_fragment.recycler_view_configurator.OnAdapterItemClickListener

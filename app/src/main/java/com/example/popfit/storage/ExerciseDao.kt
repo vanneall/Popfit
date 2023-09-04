@@ -6,7 +6,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.example.popfit.domain.Exercise
+import com.example.popfit.data.Exercise
 
 @Dao
 interface ExerciseDao {

@@ -29,7 +29,7 @@
         tools:layout="@layout/fragment_execrice_info" >
         <argument
             android:name="exercise"
-            app:argType="com.example.popfit.domain.Exercise" />
+            app:argType="com.example.popfit.data.Exercise" />
     </fragment>
     <fragment
         android:id="@+id/exerciseAddFragment"
