@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.room.Room
 import com.example.popfit.storage.ExerciseDao
 import com.example.popfit.storage.ExerciseDatabase
+import com.example.popfit.storage.FruitDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -17,11 +18,23 @@ class DatabaseModule {
 
     @Provides
     @Singleton
-    fun provideExerciseDao(@ApplicationContext context: Context): ExerciseDao {
+    fun provideDatabase(@ApplicationContext context: Context): ExerciseDatabase {
         return Room.databaseBuilder(
             context = context,
             klass = ExerciseDatabase::class.java,
             name = "exercise_database"
-        ).build().createDatabase()
+        ).build()
+    }
+
+    @Provides
+    @Singleton
+    fun provideExerciseDao(database: ExerciseDatabase): ExerciseDao {
+        return database.createExerciseDao()
+    }
+
+    @Provides
+    @Singleton
+    fun provideFruitDao(database: ExerciseDatabase): FruitDao {
+        return database.createFruitDao()
     }
 }

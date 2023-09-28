@@ -1,7 +1,6 @@
 package com.example.popfit.view.fruit_list_fragment.fruit_adapter
 
 import android.os.Bundle
-import android.os.Message
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -35,16 +34,24 @@ class FruitListFragment : Fragment(), ShowToast {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        viewModel.initializeAllFruitsList()
 
         val adapter = FruitAdapter(emptyList())
-        viewModel.allFruits.observe(viewLifecycleOwner){
+        viewModel.allFruits.observe(viewLifecycleOwner) {
             adapter.list = it
             adapter.notifyDataSetChanged()
         }
 
+        binding.buttonReload.setOnClickListener { viewModel.deleteFruits() }
+
+        binding.buttonDownload.setOnClickListener { viewModel.getFruitsFromServer() }
+
         binding.fruitRecyclerView.adapter = adapter
-        binding.fruitRecyclerView.addItemDecoration(DividerItemDecoration(context, LinearLayoutManager.VERTICAL))
+        binding.fruitRecyclerView.addItemDecoration(
+            DividerItemDecoration(
+                context,
+                LinearLayoutManager.VERTICAL
+            )
+        )
 
     }
 
