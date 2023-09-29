@@ -8,6 +8,9 @@
     <item android:id="@+id/fruitListFragment"
         android:title="Питание"/>
 
+    <item android:id="@+id/photoFragment"
+        android:title="Изображение"/>
+
     <item android:id="@+id/mainSettingsFragment"
         android:title="Настройки"
         android:icon="@drawable/nav_settings_icon"/>

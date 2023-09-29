@@ -24,6 +24,9 @@
         <action
             android:id="@+id/action_mainFitnessFragment_to_fruitListFragment"
             app:destination="@id/fruitListFragment" />
+        <action
+            android:id="@+id/action_mainFitnessFragment_to_photoFragment"
+            app:destination="@id/photoFragment" />
     </fragment>
     <fragment
         android:id="@+id/execriceInfoFragment"
@@ -44,4 +47,9 @@
         android:name="com.example.popfit.view.fruit_list_fragment.fruit_adapter.FruitListFragment"
         android:label="fragment_fruit_list"
         tools:layout="@layout/fragment_fruit_list" />
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="com.example.popfit.view.photo_fragment.PhotoFragment"
+        android:label="fragment_photo"
+        tools:layout="@layout/fragment_photo" />
 </navigation>
