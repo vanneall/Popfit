@@ -42,5 +42,4 @@ class FruitListViewModel @Inject constructor(
     private fun writeToDb(list: List<Fruit>) {
         writeAllFruitsToDbUseCase.writeAllFruitsToDb(list)
     }
-
 }

@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Popfit"
 include(":app")
+include(":camera")

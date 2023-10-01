@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/recyclerViewFragment">
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.example.camera.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/recyclerViewFragment"
+        android:name="com.example.camera.RecyclerViewFragment"
+        android:label="fragment_recycler_view"
+        tools:layout="@layout/fragment_recycler_view" >
+        <action
+            android:id="@+id/action_recyclerViewFragment_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+    </fragment>
+</navigation>

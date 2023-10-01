@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "com.example.popfit"
-    compileSdk = 34
+    compileSdk = 29
 
     defaultConfig {
         applicationId = "com.example.popfit"
